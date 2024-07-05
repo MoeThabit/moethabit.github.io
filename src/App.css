@@ -5,44 +5,18 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  background-color: #f4f4f9;
+  background-color: #000000;
+  color: white;
 }
 
-header {
-  background-color: #4CAF50;
-  color: rgb(0, 0, 0);
-  padding: 20px 0;
+.App {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.logo {
-  width: 100px;
-  display: block;
-  margin: 0 auto;
-}
-
-main {
-  padding: 20px;
-}
-
-footer {
-  background-color: #333;
-  color: rgb(0, 0, 0);
-  padding: 10px 0;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-}
-
-button {
-  padding: 10px 20px;
-  background-color: #4CAF50;
-  color: rgb(0, 0, 0);
-  border: none;
-  cursor: pointer;
-  margin-top: 20px;
-  transition: background-color 0.3s;
-}
-
-button:hover {
-  background-color: #45a049;
+.inner {
+  font-size: 5rem;
 }
